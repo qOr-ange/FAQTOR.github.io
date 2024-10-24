@@ -2,6 +2,7 @@
 
 This repository hosts the OrangeCards website, available at: [qor-ange.github.io/orangecards](https://qor-ange.github.io/orangecards/).
 
+ ```
 Card format theme & structuring (loose) rules:
 [Yellow] "Question"
 { 
@@ -11,7 +12,7 @@ Card format theme & structuring (loose) rules:
     [Green] - resources and sub-questions, details.
              (wildcard, can be under or before end blurb)
 }
-
+```
 
 ## Public Domain
 
