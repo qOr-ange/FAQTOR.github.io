@@ -1,4 +1,4 @@
-# OrangeCards FAQ
+# OrangeCards
 
 This repository hosts the OrangeCards website, available at: [qor-ange.github.io/orangecards](https://qor-ange.github.io/orangecards/).
 
