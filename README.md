@@ -2,8 +2,9 @@
 
 This repository hosts the OrangeCards website, available at: [qor-ange.github.io/orangecards](https://qor-ange.github.io/orangecards/).
 
- ```
+
 Card format theme & structuring (loose) rules:
+```
 [Yellow] "Question"
 { 
     [White] - start with important text.
