@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/orangecards.github.io/FileContentIndex/01d547ac-5b12-48c2-93a2-fdf76a9a918a.vsidx
+/.vs/orangecards.github.io/FileContentIndex/b49e02f9-4cc4-458c-a39a-1c24da7fb0c4.vsidx
+/.vs/orangecards.github.io/FileContentIndex/ef8e23c2-7239-4c7f-8d53-efac52a8f6c7.vsidx
+/.vs/orangecards.github.io/FileContentIndex/f16d1a97-7cd1-488e-bbf8-26db8015b46f.vsidx
+/.vs/orangecards.github.io/FileContentIndex/f8393524-2b3a-4199-8274-8be1fe447215.vsidx
+/.vs/orangecards.github.io/v17/.wsuo
+/.vs/orangecards.github.io/v17/DocumentLayout.backup.json
+/.vs/orangecards.github.io/v17/DocumentLayout.json
+/.vs/orangecards.github.io/FileContentIndex/1df52bd4-ddf6-4e1f-ba19-99a591617f37.vsidx
+*.vsidx
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
