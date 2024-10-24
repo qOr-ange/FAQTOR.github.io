@@ -2,8 +2,6 @@
 
 This repository hosts the OrangeCards website, available at: [qor-ange.github.io/orangecards](https://qor-ange.github.io/orangecards/).
 
-The website features an old-school design with simple HTML, minimal JavaScript, and CSS styling. It serves as a collection of frequently asked questions presented in a clean and accessible format.
-
 Card format theme & structuring (loose) rules:
 [Yellow] "Question"
 { 
