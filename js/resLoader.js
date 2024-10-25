@@ -24,7 +24,6 @@ const loadResource = async (file, elementId) => {
 
 const loadResources = async () => {
    await Promise.all(resources.map(({ file, elementId }) => {
-      console.log(`Loading resource: ${file} into element ID: ${elementId}`);
       return loadResource(file, elementId);
    }));
 };
