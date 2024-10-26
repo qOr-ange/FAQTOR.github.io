@@ -15,8 +15,11 @@ Card format theme & structuring (loose) rules:
 }
 ```
 
+for direct pages to cards use:
+```
+https://qor-ange.github.io/orangecards/embed/(number)
+```
+
 ## Public Domain
 
 This project is released under the [Unlicense](https://unlicense.org/). You are free to use, modify, and distribute this website and its content for any purpose, without any restrictions. For more information, see the [LICENSE](LICENSE) file.
-
-Feel free to contribute, use this website as a base for your own projects, or even fork and modify it as needed. This project is intentionally kept lightweight and simple for easy adaptation, print and reuse.
