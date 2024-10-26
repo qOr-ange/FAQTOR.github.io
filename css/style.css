@@ -66,52 +66,6 @@ a {
       color: var(--color-accent);
    }
 
-
-@media (max-width: 900px) {
-   .main-container {
-      flex-direction: column; 
-   }
-
-   .faq pre {
-      font-size: 1.0em;
-   }
-
-   .toc, .description {
-      font-size: 1.0em;
-      margin: 0 0 1em 0;
-      padding: 1em;
-      font-size: 1.0em;
-   }
-}
-
-
-@media 
-(max-width: 600px), 
-(max-width: 700px), 
-(max-width: 800px) {
-   .main-container {
-      flex-direction: row;
-   }
-
-   .faq pre {
-      font-size: 0.5em;
-   }
-
-   .toc, .description {
-      font-size: 0.5em;
-      padding: 0.8em;
-      font-size: 0.5em;
-   }
-}
-
-@media 
-(max-width: 500px) {
-   .faq pre {
-      font-size: 0.3em;
-      word-wrap: anywhere;
-   }
-}
-
 .headerascii {
    color: var(--color-accent);
    font-size: 0.5em;
@@ -136,6 +90,54 @@ a {
    color: var(--color-accent);
 }
 
+@media (max-width: 900px) {
+   .main-container {
+      flex-direction: column; 
+   }
+
+   .faq {
+      padding: 2em;
+   }
+      .faq pre {
+         font-size: 1.0em;
+      }
+
+   .headerascii {
+      font-size: 0.5em;
+   }
+
+   .toc, .description {
+      font-size: 1.0em;
+      margin: 0 0 1em 0;
+      padding: 1em;
+      font-size: 1.0em;
+   }
+}
+
+@media (max-width: 600px) {
+   .main-container {
+      flex-direction: row;
+   }
+
+   .faq {
+      padding: 0.5em;
+   }
+      .faq pre {
+         font-size: 0.5em;
+      }
+
+   .headerascii {
+      font-size: 0.3em;
+   }
+
+   .toc, .description {
+      font-size: 0.5em;
+      padding: 0.8em;
+      margin: 0 1em 0 0;
+      font-size: 0.5em;
+   }
+}
+
 .sub-box {
    padding: 1.0em;
    border: 1px solid var(--color-primary);
@@ -145,14 +147,8 @@ a {
 }
 
 .footer {
-   position: fixed;
-   bottom: 0;
-   right: 0;
-   margin: 10px;
-   font-size: 0.8vw;
-   height: 0.8vw;
+   font-size: 0.4em;
 }
-
 
 .code-block {
    background-color: var(--color-bg-light);
@@ -167,24 +163,19 @@ a {
 .sub-question {
    color: var(--color-primary);
 }
-
 .detail-char {
    color: var(--color-text-dark);
 }
-
 .blurb-text {
    color: var(--color-highlight);
 }
-
 .important-text {
    color: var(--color-foreground);
 }
-
 .question-text {
    color: var(--color-secondary);
    font-size: 1.3em;
 }
-
 .num {
    color: var(--color-accent);
    font-size: 1.4em;
