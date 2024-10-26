@@ -1,15 +1,4 @@
-﻿const resources = [
-   { file: 'faq/faq0.html', elementId: 'WhatLanguage' },
-   { file: 'faq/faq1.html', elementId: 'WhatToMake' },
-   { file: 'faq/faq2.html', elementId: 'StayMotivated' },
-   { file: 'faq/faq3.html', elementId: 'WorkWithOthers' },
-   { file: 'faq/faq4.html', elementId: 'IHaveThisCodePleaseHelp' },
-   { file: 'faq/faq5.html', elementId: 'IWantToLearnXYZ' },
-   { file: 'res/background.html', elementId: 'background-ascii' },
-   { file: 'res/logo.html', elementId: 'logo' }
-];
-
-const loadResource = async (file, elementId) => {
+﻿const loadResource = async (file, elementId) => {
    try {
       const response = await fetch(file);
       if (!response.ok) {
@@ -23,9 +12,12 @@ const loadResource = async (file, elementId) => {
 };
 
 const loadResources = async () => {
-   await Promise.all(resources.map(({ file, elementId }) => {
-      return loadResource(file, elementId);
-   }));
+   const elements = document.querySelectorAll('[data-file]');
+   const resources = Array.from(elements).map(el => {
+      return { file: el.getAttribute('data-file'), elementId: el.id };
+   });
+
+   await Promise.all(resources.map(({ file, elementId }) => loadResource(file, elementId)));
 };
 
 document.addEventListener("DOMContentLoaded", () => {
